@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Why a lightweight WordPress site beats a heavy one — PixelRank Studio Blog</title>
+<meta name="description" content="Most slow WordPress sites are slow because of the theme and plugins, not the hosting. How to spot the bloat — and what a lightweight build does instead.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="demo-bar">Demo site — the real delivery would be built on WordPress (see <a href="README.html">README</a>). No client content is used.</div>
+<header class="site">
+  <div class="container">
+    <a class="logo" href="index.html">Pixel<span>Rank</span> Studio</a>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">☰ Menu</button>
+    <nav class="main" id="mainNav" aria-label="Main navigation">
+      <a href="index.html">Home</a>
+      <a href="services.html">Services</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="blog.html" class="active">Blog</a>
+      <a href="contact.html">Contact</a>
+      <a href="contact.html" class="btn small">Get a Free Quote</a>
+    </nav>
+  </div>
+</header>
+<section class="block">
+  <div class="container">
+    <article class="post">
+      <div class="meta">6 November 2026 · 4 min read · WordPress</div>
+      <h1>Why a lightweight WordPress site beats a heavy one (and how to tell)</h1>
+      <p class="lead">Most slow sites are slow because of the theme and plugins, not the hosting. Here is how to spot the bloat — and what we do instead.</p>
+      <p>Open your website on your phone, on mobile data. If it takes more than 3 seconds to show anything useful, you are losing customers: studies consistently show that every extra second of load time costs conversions, and Google uses speed as a ranking factor.</p>
+      <h2>Where the weight comes from</h2>
+      <p><b>1. Heavy page builders.</b> Visual builders are convenient, but they wrap every paragraph in layers of extra code. A simple heading can ship hundreds of lines of markup you never see.</p>
+      <p><b>2. Plugin pile-up.</b> Every plugin adds code, database queries and sometimes its own scripts. We regularly find sites running 30–40 plugins where 8 would do.</p>
+      <p><b>3. Uncompressed images.</b> A 2 MB photo from a phone camera, shown at 400 px wide, is the single most common cause of slow pages.</p>
+      <h2>What a lightweight build does instead</h2>
+      <p>A fast, lightweight theme (or a clean custom theme), only the plugins you actually need, images compressed and served in modern formats, and caching set up properly. The result: pages that load in under 2 seconds on a normal phone connection.</p>
+      <h2>How to check your own site</h2>
+      <p>Run your homepage through Google PageSpeed Insights. Look at the mobile score and the “Largest Contentful Paint” number. Under 2.5 seconds is good; under 1.8 is great. If you are above 4 seconds, the theme and plugins are the first place to look — not a hosting upgrade.</p>
+      <p>Want us to check your site for free? <a href="contact.html">Send us your URL</a> and we’ll send back a short report with the three biggest fixes.</p>
+      <p><a href="blog.html">← Back to all posts</a></p>
+    </article>
+  </div>
+</section>
+<footer class="site">
+  <div class="container">
+    <div><h4>PixelRank Studio</h4><p>Lightweight WordPress websites &amp; SEO for small businesses. Based in Ahmedabad, Gujarat — working with clients across India.</p></div>
+    <div><h4>Quick links</h4><p><a href="services.html">Services</a><br><a href="portfolio.html">Portfolio</a><br><a href="blog.html">Blog</a><br><a href="contact.html">Contact</a></p></div>
+    <div><h4>Contact</h4><p>hello@pixelrank.example<br>+91 98765 43210<br>Ahmedabad, Gujarat, India</p></div>
+  </div>
+  <p class="copyright">© 2026 PixelRank Studio (demo) · Demo site — the real delivery would be built on WordPress.</p>
+</footer>
+<script src="main.js"></script>
+</body>
+</html>
